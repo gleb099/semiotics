@@ -1,0 +1,155 @@
+{
+    "easy":
+    [
+        {
+            "id":1,
+            "type": "weight",
+            "parameter": 1,
+            "operator": "=",
+            "par_value": 30000,
+            "attribute": "price",
+            "attr_values": [23000],
+            "weight_operator": "+",
+            "weight": 20
+        },
+        {
+            "id":2,
+            "type": "weight",
+            "parameter": 1,
+            "operator": "=",
+            "par_value": 50000,
+            "attribute": "price",
+            "attr_values": [35000, 33000],
+            "weight_operator": "+",
+            "weight": 20
+        },
+        {
+            "id":3,
+            "type": "weight",
+            "parameter": 1,
+            "operator": "=",
+            "par_value": 80000,
+            "attribute": "price",
+            "attr_values": [58000],
+            "weight_operator": "+",
+            "weight": 20
+        },
+        {
+            "id":4,
+            "type": "weight",
+            "parameter": 2,
+            "operator": "=",
+            "par_value": 1,
+            "attribute": "proccesor_model",
+            "attr_values": ["Intel"],
+            "weight_operator": "+",
+            "weight": 20
+        },
+        {
+            "id":5,
+            "type": "weight",
+            "parameter": 2,
+            "operator": "=",
+            "par_value": 2,
+            "attribute": "proccesor_model",
+            "attr_values": ["AMD"],
+            "weight_operator": "+",
+            "weight": 20
+        },
+        {
+            "id":6,
+            "type": "weight",
+            "parameter": 6,
+            "operator": "=",
+            "par_value": 1,
+            "attribute": "cores_id",
+            "attr_values": [1],
+            "weight_operator": "+",
+            "weight": 20
+        },
+        {
+            "id":7,
+            "type": "weight",
+            "parameter": 6,
+            "operator": "=",
+            "par_value": 2,
+            "attribute": "cores_id",
+            "attr_values": [2],
+            "weight_operator": "+",
+            "weight": 20
+        },
+        {
+            "id":8,
+            "type": "weight",
+            "parameter": 6,
+            "operator": "=",
+            "par_value": 3,
+            "attribute": "cores_id",
+            "attr_values": [3],
+            "weight_operator": "+",
+            "weight": 20
+        },
+        {
+            "id":9,
+            "type": "weight",
+            "parameter": 7,
+            "operator": "=",
+            "par_value": 2,
+            "attribute": "ssd",
+            "attr_values": ["256", "512"],
+            "weight_operator": "+",
+            "weight": 20
+        },
+        {
+            "id":10,
+            "type": "weight",
+            "parameter": 7,
+            "operator": "=",
+            "par_value": 3,
+            "attribute": "ssd",
+            "attr_values": ["128"],
+            "weight_operator": "+",
+            "weight": 20
+        },
+        {
+            "id":11,
+            "type": "weight",
+            "parameter": 8,
+            "operator": "=",
+            "par_value": 1,
+            "attribute": "ram_id",
+            "attr_values": [2, 3],
+            "weight_operator": "+",
+            "weight": 20
+        },
+        {
+            "id":12,
+            "type": "weight",
+            "parameter": 8,
+            "operator": "=",
+            "par_value": 0,
+            "attribute": "ram_id",
+            "attr_values": [1],
+            "weight_operator": "+",
+            "weight": 20
+        }
+    ],
+    "difficult":
+    [
+        {
+            "id":1,
+            "type": "weight",
+            "parameter1": 1,
+            "operator1": "=",
+            "par_value1": 50000,
+            "union": "and",
+            "parameter2": 3,
+            "operator2": "=",
+            "par_value2": "Встроенная",
+            "attribute": "mark_id",
+            "attr_values": [1,2],
+            "weight_operator": "+",
+            "weight": 50
+        }
+    ]
+}
